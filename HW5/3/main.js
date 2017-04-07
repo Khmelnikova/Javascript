@@ -15,7 +15,7 @@ var I = setInterval(function(){
     var img  = document.createElement("img");
     div.appendChild(img);
     img.setAttribute("src", "img/" + images[num]);
-    var p = document.createElement("span");
+    var p = document.createElement("p");
     div.appendChild(p);
     p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил " + random(10) + " ед. товара " + goods[num];
     numGoods++;
