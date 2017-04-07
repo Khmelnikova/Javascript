@@ -1,0 +1,18 @@
+img {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+}
+div {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: #4A4A4A ;
+}
+p {
+    margin-top: 15px !important;
+    text-align: justify !important;
+}
+
+
+
