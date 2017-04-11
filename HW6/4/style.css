@@ -1,0 +1,29 @@
+.wrapper {
+    border: 2px solid #20B2AA;
+    width: 228px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.btn {
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #20B2AA;
+    border-radius: 4px;
+}
+
+.screen {
+    margin-bottom: 5px;
+}
+#field {
+    width: 177px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+
