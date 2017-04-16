@@ -17,3 +17,15 @@ btn_sh.addEventListener("click", function(){
     }
     field_desh.value = new_str;
 });
+
+btn_desh.addEventListener("click", function(){
+    field_sh.value = "";
+    new_str = "";
+    str = field_desh.value;
+    for(var i = 0; i < str.length; i++){
+        code = str.charCodeAt(i);
+        code = (127 - code) + 64;
+        new_str += String.fromCharCode(code);
+    }
+    field_sh.value = new_str;
+});
