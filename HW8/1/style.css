@@ -1,0 +1,24 @@
+#div {
+    border:1px solid #000;
+    height: 400px; 
+    width: 400px; 
+    position: fixed;
+}
+#menu {
+    display: none; 
+    width: 200px; 
+    border: 1px solid black;
+    position: fixed; 
+    z-index: 100; 
+    background-color: #fff;
+}
+.menu_item:hover {
+    background-color: whitesmoke;
+    cursor: default;
+}
+.color {
+    background-color: #FFDAB9;
+}
+.form {
+    border-radius: 200px;
+}
