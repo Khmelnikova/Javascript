@@ -58,10 +58,20 @@ var framework = {
         return e.clientHeight;
     },
     pageTop: function(e){
-        return e.getBoundingClientRect().top;
+        var offset = 0;
+		while(e.offsetParent!= null){
+			offset = e.offsetTop;
+			e = e.offsetParent;
+		}
+		return offset;
     },
     pageLeft: function(e){
-        return e.getBoundingClientRect().left;
+        var offset = 0;
+		while(e.offsetParent!= null){
+			offset = e.offsetLeft;
+			e = e.offsetParent;
+		}
+		return offset;
     },
     css: function (){
         var e, p, v;
