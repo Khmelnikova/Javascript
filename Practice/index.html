@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" >
+<link rel="stylesheet" href="css/style.css" >
+
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
+<script type="text/javascript" src="bootstrap.min.js"></script> 
+</head> 
+<body> 
+<div  class="row">
+<div class="col-md-3">
+  
+<h3> Выберите тип упаковки </h3>
+  <form id="select_packaging">
+      <input type="radio" name="select_packaging" value="0"> Без упаковки <br>
+      <input type="radio" name="select_packaging" value="2"> Фольга 2р<br>
+      <input type="radio" name="select_packaging" value="3"> Бумага 3р
+  </form>
+<h3> У нас работает доставка! </h3>
+<select id="select_delivery">
+ <option value="0">Самовывоз</option>
+ <option value="4">Доставка курьером 4р</option>
+</select>
+<h2> Итого </h2>
+ <input readonly id="result">
+ </div>
+<div class="col-md-9" id="wrapper"> </div>
+
+</div>
+
+
+
+<script type="text/javascript" src="main.js"></script> 
+</body> 
+</html>
