@@ -22,4 +22,4 @@ var I = setInterval(function(){
     if (numGoods > 9) {
         clearInterval(I);
     }
-},Math.floor(Math.random()*1801 + 2700));
+},Math.floor(2700 + Math.random()*1801);
