@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+    margin-left: 30px;
+    height: 3000px;
+}
+
+#block {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: aqua;
+}
