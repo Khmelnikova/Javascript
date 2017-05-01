@@ -1,0 +1,25 @@
+.menu, .submenu{ 
+    width: 100px; 
+    border: 1px solid black;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0; 
+    margin-left: 20px;
+}
+
+.submenu {
+    position: absolute;
+	left: 80px;
+	top: 0;
+}
+.menu_item {
+    padding: 2px 5px 2px 5px;
+    position: relative;
+}
+.menu_item:hover {
+    background-color: whitesmoke;
+    cursor: default;
+}
+.display {
+    display: none;    
+}
