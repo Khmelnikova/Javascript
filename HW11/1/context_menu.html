@@ -1,0 +1,37 @@
+<style>
+    #nwdiv {
+    border:1px solid #000;
+    height: 400px; 
+    width: 400px; 
+    position: fixed;
+    }
+    #menu {
+    display: none; 
+    width: 200px; 
+    border: 1px solid black;
+    position: fixed; 
+    z-index: 100; 
+    background-color: #fff;
+    }
+    .menu_item:hover {
+    background-color: whitesmoke;
+    cursor: default;
+    }
+    .color {
+    background-color: #FFDAB9;
+    }
+    .form {
+    border-radius: 200px;
+    }
+</style>
+
+
+
+<h3> На этом блоке есть контекстное меню :) </h3>
+<div id="nwdiv"> 
+<div id="menu"> 
+<div id="color" class="menu_item"> Изменить цвет</div>
+<div id="form" class="menu_item"> Изменить форму</div>
+<div id="border" class="menu_item"> Изменить толщину границы</div>
+</div>
+</div>
