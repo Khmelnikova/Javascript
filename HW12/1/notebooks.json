@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Желай/Делай!",
+        "manufacturer": "Эксмо",
+        "price": 8.59,
+        "stock": true,
+        "image": "images/notebook1.jpg"
+    },
+    {
+        "name": "Раскрась свой день",
+        "manufacturer": "Попурри",
+        "price": 5.61,
+        "stock": true,
+        "image": "images/notebook2.jpg"
+    },
+    {
+        "name": "Записная книжка 'Енот'",
+        "manufacturer": "Попурри",
+        "price": 3.63,
+        "stock": false,
+        "image": "images/notebook3.jpg"
+    },
+    {
+        "name": "Записная книжка 'Арбуз'",
+        "manufacturer": "ЕжеWeeka",
+        "price": 10.18,
+        "stock": true,
+        "image": "images/notebook4.jpg"
+    },
+]

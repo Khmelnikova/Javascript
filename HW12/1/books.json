@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Мастер и Маргарита",
+        "author": "Михаил Булгаков",
+        "price": 8.27,
+        "stock": true,
+        "image": "images/book1.jpg"
+    },
+    {
+        "name": "Доктор Живаго",
+        "author": "Борис Пастернак",
+        "price": 6.29,
+        "stock": false,
+        "image": "images/book2.jpg"
+    },
+    {
+        "name": "Братья Карамазовы",
+        "author": "Федор Достоевский",
+        "price": 15.18,
+        "stock": true,
+        "image": "images/book3.jpg"
+    },
+    {
+        "name": "А зори здесь тихие...",
+        "author": "Борис Васильев",
+        "price": 7.90,
+        "stock": true,
+        "image": "images/book4.jpg"
+    }
+]

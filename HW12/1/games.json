@@ -1,0 +1,30 @@
+[
+    {
+        "name": "UNO",
+        "redaction": "Mattel",
+        "price": 15.99,
+        "stock": true,
+        "image": "images/game1.jpg"
+    },
+    {
+        "name": "Твистер",
+        "redaction": "ЭРА",
+        "price": 12.00,
+        "stock": true,
+        "image": "images/game2.jpg"
+    },
+    {
+        "name": "Имаджинариум",
+        "redaction": "Stupid Casual",
+        "price": 55.78,
+        "stock": true,
+        "image": "images/game3.jpg"
+    },
+    {
+        "name": "ALIAS: Party",
+        "redaction": "Tactic",
+        "price": 48.90,
+        "stock": false,
+        "image": "images/game4.jpg"
+    }
+]
