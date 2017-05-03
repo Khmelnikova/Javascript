@@ -31,7 +31,8 @@ var framework = {
         }
     },
     dispatch: function(t, e){
-        var ev = new Event(e);
-        t.dispatchEvent(ev);
+		var ev = document.createEvent("Event");
+		ev.initEvent(e);
+		t.dispatchEvent(ev);
     }
 }
