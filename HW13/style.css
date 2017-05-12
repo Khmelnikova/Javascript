@@ -1,0 +1,11 @@
+#div {
+    border: 1px solid #F08080; 
+    padding: 4px;
+    position: fixed;
+}
+.buttons {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+    padding: 2px;
+}
