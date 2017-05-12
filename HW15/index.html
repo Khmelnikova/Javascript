@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> </title>
+
+
+  </head>
+  <body>
+    <video src="video.mp4" height="400px" width="700px"></video>
+      <div>
+          <input type="button" value="►" id="play"> 
+          <input type="button" value="▄" id="stop">
+          <input type="button" value=">>" id="forward">
+          <input type="button" value="<<" id="backward">
+          <input type="button" value="♫" id="stopvolume">
+          <input type="range" id="volume" min="0" max="10" value="10">
+          <div id="track" style="width: 150px; height:10px; border: solid 1px #000; display: inline-block;">
+              <div id="loadtrack" style="width:0px; height:10px; background-color: #777;"></div>
+          </div>
+          	</div>
+          	<div id="time"></div>
+          	<div id="speed"></div>
+      </div>
+
+        <script src="main.js"></script>
+  </body>
+</html>
