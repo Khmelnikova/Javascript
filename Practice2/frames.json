@@ -1,0 +1,27 @@
+[
+    {
+        "name":"vintage",
+        "url":"images/frames/1.png",
+        "faximile":"images/faximile/1.png"
+    },
+    {
+        "name":"simple",
+        "url":"images/frames/2.png",
+        "faximile":"images/faximile/2.png"
+    },
+    {
+        "name":"popular",
+        "url":"images/frames/4.png",
+        "faximile":"images/faximile/3.png"
+    },
+    {
+        "name":"red",
+        "url":"images/frames/5.png",
+        "faximile":"images/faximile/5.png"
+    },
+    {
+        "name":"lines",
+        "url":"images/frames/6.png",
+        "faximile":"images/faximile/6.png"
+    }
+]

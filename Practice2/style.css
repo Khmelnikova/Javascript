@@ -1,0 +1,63 @@
+#mainCard {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+.frame-wrapper {
+    width: 90px;
+    height: auto;
+    border: 1px solid #40E0D0;
+    margin-right: 3px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.frame-image {
+    width: 70px;
+    height: 70px;
+    margin: 4px 0 0 7px;
+}
+.frame-name {
+    margin-left: 7px; 
+}
+#frame {
+    position: absolute;
+}
+
+#menu {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 2px solid #40E0D0;
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+input {
+    display: block;
+    margin: 10px 4px 4px 4px;
+    border: 1px solid #40E0D0;
+    border-radius: 3px;
+}
+select {
+    border: 1px solid #40E0D0;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+.bgColor {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    display: inline-block;
+}
+#frames {
+    display: block;
+    margin: 7px 7px 7px 0;
+}
+#faximile {
+    display: block;
+    margin: 7px 7px 7px 0;
+}
